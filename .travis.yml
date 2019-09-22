@@ -16,6 +16,7 @@ deploy:
   env: "Dockerimage-env"
   bucket_name: "elasticbeanstalk-ap-southeast-1-489459884699"
   bucket_path: "e-gmnzchihdf" ## dockerImage 
+  edge: true
   on:
     branch: master
   access_key_id:
