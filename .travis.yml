@@ -5,7 +5,6 @@ services:
 before_install:
   - docker build -t shanmicheal25/docker-react -f Dockerfile.dev .
 
-
 script:
   - docker run shanmicheal25/docker-react  npm run test -- --coverage
 
@@ -15,7 +14,7 @@ deploy:
   app: "dockerImage" 
   env: "Dockerimage-env"
   bucket_name: "elasticbeanstalk-ap-southeast-1-489459884699"
-  bucket_path: "dockerImage " ## e-gmnzchihdf
+  bucket_path: "e-gmnzchihdf" ## dockerImage 
   on:
     branch: master
   access_key_id: $AWS_ACCESS_KEY
