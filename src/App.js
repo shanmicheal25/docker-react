@@ -11,7 +11,7 @@ function App() {
           Edit <code>src/App.js</code> auto refresh ...
 
         </p>
-        <p> Bye there  </p>
+        <p> Bye there  ......</p>
       </header>
     </div>
   );
